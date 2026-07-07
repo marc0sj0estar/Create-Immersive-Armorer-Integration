@@ -161,8 +161,12 @@ dependencies {
     implementation("io.github.llamalad7:mixinextras-forge:0.4.1")
 
     implementation fg.deobf("curse.maven:immersive-engineering-231951:6206989")
+    implementation fg.deobf("curse.maven:create-immersive-tacz-integration-1152431:6901038")
 
-    implementation fg.deobf("curse.maven:create-immersive-tacz-integration-1152431:6741058")
+
+
+    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
+
 
     implementation fg.deobf("curse.maven:timeless-and-classics-zero-1028108:6654541")
 
