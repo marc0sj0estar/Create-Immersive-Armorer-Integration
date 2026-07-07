@@ -26,9 +26,9 @@ public class CreateImmersiveArmorerIntegration
 {
     public static final String MOD_ID = "ciaintegration";
 
-    public CreateImmersiveArmorerIntegration(FMLJavaModLoadingContext context)
+    public CreateImmersiveArmorerIntegration()
     {
-        IEventBus modEventBus = context.getModEventBus();
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
 
