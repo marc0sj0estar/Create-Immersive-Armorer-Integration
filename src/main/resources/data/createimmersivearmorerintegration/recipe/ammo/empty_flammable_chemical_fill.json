@@ -1,0 +1,24 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createimmersivearmorerintegration:empty_flammable_chemical"
+    },
+    {
+      "amount": 50,
+      "fluid": "createimmersivetacz:gunpowder_fluid",
+      "type": "neoforge:single"
+    }
+  ],
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "immersive_armorer:chemical"
+        }
+      }
+    }
+  ]
+}

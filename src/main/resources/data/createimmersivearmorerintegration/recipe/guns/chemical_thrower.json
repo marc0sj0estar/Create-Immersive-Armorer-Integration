@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "B": {
+      "item": "createimmersivetacz:gun_barrel"
+    },
+    "C": {
+      "tag": "c:storage_blocks/steel"
+    },
+    "H": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "T": {
+      "item": "createimmersivetacz:gun_trigger"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    },
+    "W": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "  FF ",
+    "BBCH ",
+    "   TW"
+  ],
+  "result": {
+    "id": "tacz:modern_kinetic_gun",
+    "components": {
+      "minecraft:custom_data": {
+        "GunId": "immersive_armorer:chemical_thrower",
+        "GunFireMode": "AUTO"
+      }
+    }
+  }
+}

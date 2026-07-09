@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "id": "createimmersivearmorerintegration:empty_flammable_chemical",
+      "count": 4
+    }
+  ]
+}

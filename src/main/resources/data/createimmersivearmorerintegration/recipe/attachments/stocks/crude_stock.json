@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "SSSS",
+    "  SS"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "immersive_armorer:stock_crude"
+      }
+    }
+  }
+}

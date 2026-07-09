@@ -1,0 +1,22 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 5,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "immersive_armorer:stream_capacitor"
+        }
+      }
+    }
+  ]
+}

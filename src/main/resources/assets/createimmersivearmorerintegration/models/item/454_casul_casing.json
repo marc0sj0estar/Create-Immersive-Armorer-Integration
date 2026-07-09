@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createimmersivearmorerintegration:item/454_casul_casing"
+  }
+}

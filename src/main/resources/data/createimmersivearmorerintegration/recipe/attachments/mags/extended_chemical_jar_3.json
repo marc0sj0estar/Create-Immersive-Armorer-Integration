@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "F": {
+      "item": "immersiveengineering:fluid_pump"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "TNT",
+    " F "
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "immersive_armorer:extended_jar_3"
+      }
+    }
+  }
+}

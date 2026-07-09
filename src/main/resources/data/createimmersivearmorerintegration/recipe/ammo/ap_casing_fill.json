@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivearmorerintegration:ap_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "immersive_armorer:ap_ammo"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivearmorerintegration:ap_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivearmorerintegration:ap_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivearmorerintegration:ap_casing"
+        },
+        {
+          "amount": 25,
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "type": "neoforge:single"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivearmorerintegration:ap_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivearmorerintegration:ap_casing"
+  }
+}

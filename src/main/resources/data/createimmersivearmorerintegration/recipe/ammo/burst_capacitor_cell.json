@@ -1,0 +1,22 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    }
+  ],
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 3,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "immersive_armorer:burst_capacitor"
+        }
+      }
+    }
+  ]
+}

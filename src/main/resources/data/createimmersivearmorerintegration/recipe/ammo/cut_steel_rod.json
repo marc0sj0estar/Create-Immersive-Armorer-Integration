@@ -1,0 +1,20 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 6,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "immersive_armorer:cut_steel_rod"
+        }
+      }
+    }
+  ]
+}

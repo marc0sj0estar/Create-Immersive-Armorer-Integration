@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivearmorerintegration:20mm_cased_telescoped_ammunition_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "immersive_armorer:20mm"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivearmorerintegration:20mm_cased_telescoped_ammunition_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:40mmhe_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivearmorerintegration:20mm_cased_telescoped_ammunition_casing"
+        },
+        {
+          "amount": 50,
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "type": "neoforge:single"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivearmorerintegration:20mm_cased_telescoped_ammunition_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivearmorerintegration:20mm_cased_telescoped_ammunition_casing"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "V": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "W": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "VWV",
+    "VVV"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "immersive_armorer:extended_capacitor_1"
+      }
+    }
+  }
+}

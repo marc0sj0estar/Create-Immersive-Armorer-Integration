@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "G": {
+      "item": "immersiveengineering:wooden_grip"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "W": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    " W ",
+    "SGS"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "immersive_armorer:grip_twined"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createimmersivearmorerintegration:item/20mm_cased_telescoped_ammunition_casing"
+  }
+}

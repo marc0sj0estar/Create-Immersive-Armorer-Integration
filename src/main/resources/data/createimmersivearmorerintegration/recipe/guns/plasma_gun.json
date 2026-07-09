@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "B": {
+      "item": "createimmersivetacz:gun_barrel"
+    },
+    "F": {
+      "item": "immersiveengineering:component_electronic_adv"
+    },
+    "C": {
+      "tag": "c:ingots/steel"
+    },
+    "T": {
+      "item": "createimmersivetacz:gun_trigger"
+    },
+    "W": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    " FFF  ",
+    "BCCCF ",
+    "    TW"
+  ],
+  "result": {
+    "id": "tacz:modern_kinetic_gun",
+    "components": {
+      "minecraft:custom_data": {
+        "GunId": "immersive_armorer:plasma_gun",
+        "GunFireMode": "SEMI"
+      }
+    }
+  }
+}

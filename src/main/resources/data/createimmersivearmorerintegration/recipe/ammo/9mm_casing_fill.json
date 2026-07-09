@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivearmorerintegration:9mm_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data" : {
+          "AmmoId": "tacz:9mm"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivearmorerintegration:9mm_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivearmorerintegration:9mm_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivearmorerintegration:9mm_casing"
+        },
+        {
+          "amount": 25,
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "type": "neoforge:single"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivearmorerintegration:9mm_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivearmorerintegration:9mm_casing"
+  }
+}

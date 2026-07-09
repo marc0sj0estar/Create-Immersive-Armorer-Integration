@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:brass_sheet"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "id": "createimmersivearmorerintegration:ap_casing",
+      "count": 16
+    }
+  ]
+}
